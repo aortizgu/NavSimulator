@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Offline OSM Maps Playing</title>
+</head>
+<link rel="stylesheet" href="assets/css/main.css" />
+<!-- leaflet lib ccs-->
+<link rel="stylesheet" href="libs/leaflet/dist/leaflet.css" />
+
+<body>
+
+    <div class="map-container">
+        <div>
+            <h1>Controls</h1><br />
+            <div id="data" class="map">
+
+            </div>
+        </div>
+        <div class="map-city-offline">
+            <h1>Offline map</h1><br />
+            <div>
+                <h2>Offline Public Transport Madrid</h2><br />
+                <div id="madrid" class="map"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- libs -->
+    <script type="text/javascript" src="libs/leaflet/dist/leaflet.js"></script>
+    <script type="text/javascript" src="libs/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src='libs/geolocation-simulator.min.js'></script>
+
+    <!-- scripts -->
+    <script type="text/javascript" src="map.js"></script>
+    <script type="text/javascript" src="simulator.js"></script>
+
+</body>
+
+</html>
