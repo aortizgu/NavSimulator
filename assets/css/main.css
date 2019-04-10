@@ -1,18 +1,8 @@
-.map-container {
-    text-align: center;
+.fill { 
+    height: 100%;
+    min-height: 100%;
 }
 
-.map-container h1,h2 {
-    margin: 0;
-    padding: 0;
-}
-
-.map-container > div {
-    float: left;
-    margin-right: 50px;
-}
-
-.map {
-    width: 600px;
-    height: 600px;
+html, body {
+    height: 100%;
 }

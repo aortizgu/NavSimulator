@@ -5,37 +5,54 @@
     <meta charset="UTF-8">
     <title>NavSimulator</title>
 </head>
-<link rel="stylesheet" href="assets/css/main.css" />
 <!-- leaflet lib ccs-->
-<link rel="stylesheet" href="libs/leaflet/dist/leaflet.css" />
+<link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css" />
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="assets/css/main.css" />
 
 <body>
-
-    <div class="map-container">
-        <div>
-            <h1>Controls</h1><br />
-            <div id="data" class="map">
-
-            </div>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">NavSimulator</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" id="home">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="reset">Reset </a>
+                </li>
+            </ul>
         </div>
-        <div class="map-city-offline">
-            <h1>Offline map</h1><br />
-            <div>
-                <h2>Offline Public Transport Madrid</h2><br />
-                <div id="madrid" class="map"></div>
+    </nav>
+
+   <div class="container-fluid fill">
+        <div class="row fill">
+            <div class="col-sm-3 d-flex justify-content-center fill" style="background-color:green;">
+                <h1>Controls</h1><br />
+            </div>
+            <div class="col-sm-9 d-flex justify-content-center fill" style="background-color:grey;">
+                <div id="madrid" style="width: 100vw; height: 100%;">
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- libs -->
-    <script type="text/javascript" src="libs/leaflet/dist/leaflet.js"></script>
-    <script type="text/javascript" src="libs/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src='libs/geolocation-simulator.min.js'></script>
-
-    <!-- scripts -->
-    <script type="text/javascript" src="map.js"></script>
-    <script type="text/javascript" src="simulator.js"></script>
-
 </body>
+        
+        
+<!-- libs -->
+<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src='bower_components/jquery-ui/jquery-ui.min.js'></script>
+<script type="text/javascript" src='bower_components/leaflet/dist/leaflet.js'></script>
+<script type="text/javascript" src='libs/geolocation-simulator.min.js'></script>
 
+<!-- scripts -->
+<script type="text/javascript" src="map.js"></script>
+<!--<script type="text/javascript" src="simulator.js"></script>-->
+        
 </html>
