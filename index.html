@@ -31,10 +31,10 @@
 
    <div class="container-fluid fill">
         <div class="row fill">
-            <div class="col-sm-3 d-flex justify-content-center fill" style="background-color:green;">
-                <h1>Controls</h1><br />
+            <div class="col-sm-3 d-flex justify-content-center fill">
+                <ul id="stations_list"></ul>
             </div>
-            <div class="col-sm-9 d-flex justify-content-center fill" style="background-color:grey;">
+            <div class="col-sm-9 d-flex justify-content-center fill">
                 <div id="madrid" style="width: 100vw; height: 100%;">
                 </div>
             </div>
@@ -49,10 +49,13 @@
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src='bower_components/jquery-ui/jquery-ui.min.js'></script>
 <script type="text/javascript" src='bower_components/leaflet/dist/leaflet.js'></script>
+<script type="text/javascript" src='bower_components/togeojson/togeojson.js'></script>
+<script type="text/javascript" src='libs/leaflet-omnivore.min.js'></script>
 <script type="text/javascript" src='libs/geolocation-simulator.min.js'></script>
 
 <!-- scripts -->
 <script type="text/javascript" src="map.js"></script>
+<script type="text/javascript" src="stations.js"></script>
 <!--<script type="text/javascript" src="simulator.js"></script>-->
         
 </html>

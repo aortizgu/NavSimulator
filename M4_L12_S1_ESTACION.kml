@@ -1,0 +1,1347 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="OGRGeoJSON" id="OGRGeoJSON">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="IDESTACION" type="string"></SimpleField>
+	<SimpleField name="FECHAACTUAL" type="string"></SimpleField>
+	<SimpleField name="MODO" type="int"></SimpleField>
+	<SimpleField name="CODIGOESTACION" type="string"></SimpleField>
+	<SimpleField name="DENOMINACION" type="string"></SimpleField>
+	<SimpleField name="OBSERVACIONES" type="string"></SimpleField>
+	<SimpleField name="SITUACION" type="string"></SimpleField>
+	<SimpleField name="CODIGOCTMESTACIONREDMETRO" type="string"></SimpleField>
+	<SimpleField name="CODIGOEMPRESA" type="string"></SimpleField>
+	<SimpleField name="DENOMINACIONABREVIADA" type="string"></SimpleField>
+	<SimpleField name="MODOINTERCAMBIADOR" type="int"></SimpleField>
+	<SimpleField name="CODIGOINTERCAMBIADOR" type="string"></SimpleField>
+	<SimpleField name="TIPO" type="string"></SimpleField>
+	<SimpleField name="CODIGOPROVINCIA" type="string"></SimpleField>
+	<SimpleField name="CODIGOMUNICIPIO" type="string"></SimpleField>
+	<SimpleField name="CODIGOENTIDAD" type="string"></SimpleField>
+	<SimpleField name="CODIGONUCLEO" type="string"></SimpleField>
+	<SimpleField name="CODIGOVIA" type="string"></SimpleField>
+	<SimpleField name="TIPOVIA" type="string"></SimpleField>
+	<SimpleField name="PARTICULA" type="string"></SimpleField>
+	<SimpleField name="NOMBREVIA" type="string"></SimpleField>
+	<SimpleField name="TIPONUMERO" type="string"></SimpleField>
+	<SimpleField name="NUMEROPORTAL" type="string"></SimpleField>
+	<SimpleField name="CALIFICADORPORTAL" type="string"></SimpleField>
+	<SimpleField name="CARRETERA" type="string"></SimpleField>
+	<SimpleField name="CODIGOPOSTAL" type="string"></SimpleField>
+	<SimpleField name="DISTRITO" type="string"></SimpleField>
+	<SimpleField name="SECCIONCENSAL" type="string"></SimpleField>
+	<SimpleField name="BARRIO" type="string"></SimpleField>
+	<SimpleField name="TESELA" type="string"></SimpleField>
+	<SimpleField name="SECTORURBANO" type="string"></SimpleField>
+	<SimpleField name="SECTOR" type="string"></SimpleField>
+	<SimpleField name="CORREDOR" type="string"></SimpleField>
+	<SimpleField name="CORONATARIFARIA" type="string"></SimpleField>
+	<SimpleField name="CORONA123" type="string"></SimpleField>
+	<SimpleField name="ZONATRANSPORTE" type="string"></SimpleField>
+	<SimpleField name="ENCUESTADOMICILIARIA" type="string"></SimpleField>
+	<SimpleField name="ENCUESTAAFOROS" type="string"></SimpleField>
+	<SimpleField name="HOJA25000" type="string"></SimpleField>
+	<SimpleField name="ACONDICIONAMIENTOVIAJEROS" type="string"></SimpleField>
+	<SimpleField name="ACONDICIONAMIENTOVEHICULOS" type="string"></SimpleField>
+	<SimpleField name="FECHAALTA" type="string"></SimpleField>
+	<SimpleField name="FECHAINICIO" type="string"></SimpleField>
+	<SimpleField name="FECHAFIN" type="string"></SimpleField>
+	<SimpleField name="X" type="int"></SimpleField>
+	<SimpleField name="Y" type="int"></SimpleField>
+	<SimpleField name="GRADOACCESIBILIDAD" type="string"></SimpleField>
+	<SimpleField name="SITUACIONCALLE" type="string"></SimpleField>
+	<SimpleField name="DENOMINACION_SAE" type="string"></SimpleField>
+	<SimpleField name="INTERURBANOS_CODIGOEMT_CRTM" type="string"></SimpleField>
+	<SimpleField name="INTERURBANOS_CODIGOEMT_EMPRESA" type="string"></SimpleField>
+</Schema>
+<Folder><name>OGRGeoJSON</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="IDESTACION">4_221</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">221</SimpleData>
+		<SimpleData name="DENOMINACION">FUENLABRADA CENTRAL</SimpleData>
+		<SimpleData name="OBSERVACIONES">Con Calle Luis Sauquillo</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">221</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1214</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">92</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">91</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">058</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">05801</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0580102</SimpleData>
+		<SimpleData name="CODIGOVIA">10266</SimpleData>
+		<SimpleData name="TIPOVIA">Calle</SimpleData>
+		<SimpleData name="PARTICULA">de la</SimpleData>
+		<SimpleData name="NOMBREVIA">Vía</SimpleData>
+		<SimpleData name="TIPONUMERO">SN</SimpleData>
+		<SimpleData name="NUMEROPORTAL">SN</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28944</SimpleData>
+		<SimpleData name="DISTRITO">04</SimpleData>
+		<SimpleData name="SECCIONCENSAL">001</SimpleData>
+		<SimpleData name="TESELA">T058531</SimpleData>
+		<SimpleData name="SECTORURBANO">0580102008</SimpleData>
+		<SimpleData name="SECTOR">7</SimpleData>
+		<SimpleData name="CORREDOR">4</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B2</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">058-024</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">699</SimpleData>
+		<SimpleData name="HOJA25000">582-1</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">432197</SimpleData>
+		<SimpleData name="Y">4459646</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.798906900782018,40.282675775140497</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="IDESTACION">4_230</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">230</SimpleData>
+		<SimpleData name="DENOMINACION">EL BERCIAL</SimpleData>
+		<SimpleData name="OBSERVACIONES">1224</SimpleData>
+		<SimpleData name="SITUACION">S</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">230</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1224</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">93</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">201</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">065</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">06507</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0650701</SimpleData>
+		<SimpleData name="CODIGOVIA">C0027</SimpleData>
+		<SimpleData name="TIPOVIA">Avda</SimpleData>
+		<SimpleData name="PARTICULA"></SimpleData>
+		<SimpleData name="NOMBREVIA">Comandante José Manuel Ripollés</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">4</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28905</SimpleData>
+		<SimpleData name="DISTRITO">03</SimpleData>
+		<SimpleData name="SECCIONCENSAL">001</SimpleData>
+		<SimpleData name="TESELA">T0651016</SimpleData>
+		<SimpleData name="SECTORURBANO">0650701001</SimpleData>
+		<SimpleData name="CORREDOR">4</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B1</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">065-001</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">705</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">438128</SimpleData>
+		<SimpleData name="Y">4464745</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.729633180489337,40.329072367482894</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="IDESTACION">4_234</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">234</SimpleData>
+		<SimpleData name="DENOMINACION">HOSPITAL SEVERO OCHOA</SimpleData>
+		<SimpleData name="OBSERVACIONES">1228</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">234</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1228</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">92</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">234</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">074</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">07402</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0740201</SimpleData>
+		<SimpleData name="CODIGOVIA">99999</SimpleData>
+		<SimpleData name="TIPOVIA">Avda</SimpleData>
+		<SimpleData name="PARTICULA"></SimpleData>
+		<SimpleData name="NOMBREVIA">Orellana</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">3</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28914</SimpleData>
+		<SimpleData name="DISTRITO">01</SimpleData>
+		<SimpleData name="SECCIONCENSAL">001</SimpleData>
+		<SimpleData name="TESELA">T0741187</SimpleData>
+		<SimpleData name="SECTORURBANO">0740201001</SimpleData>
+		<SimpleData name="CORREDOR">4</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B1</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">074-031</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">770</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">434864</SimpleData>
+		<SimpleData name="Y">4463962</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.767973047304618,40.321770270088287</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="IDESTACION">4_226</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">226</SimpleData>
+		<SimpleData name="DENOMINACION">GETAFE CENTRAL</SimpleData>
+		<SimpleData name="OBSERVACIONES">Frente al nº 3</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">226</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1220</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">92</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">92</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">065</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">06503</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0650301</SimpleData>
+		<SimpleData name="CODIGOVIA">A0299</SimpleData>
+		<SimpleData name="TIPOVIA">Calle</SimpleData>
+		<SimpleData name="NOMBREVIA">Ferrocarril</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">2</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28904</SimpleData>
+		<SimpleData name="DISTRITO">03</SimpleData>
+		<SimpleData name="SECCIONCENSAL">016</SimpleData>
+		<SimpleData name="TESELA">T065637</SimpleData>
+		<SimpleData name="SECTORURBANO">0650301031</SimpleData>
+		<SimpleData name="SECTOR">7</SimpleData>
+		<SimpleData name="CORREDOR">4</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B1</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">065-018</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">722</SimpleData>
+		<SimpleData name="HOJA25000">582-1</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">437737</SimpleData>
+		<SimpleData name="Y">4462623</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.734025028929001,40.309927909041662</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="IDESTACION">4_217</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">217</SimpleData>
+		<SimpleData name="DENOMINACION">MANUELA MALASAÑA</SimpleData>
+		<SimpleData name="OBSERVACIONES">PAU-4 FR-349 Infraestruct
+Mostoles (Madrid)</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">217</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1209</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">93</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">266</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">092</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">09201</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0920101</SimpleData>
+		<SimpleData name="CODIGOVIA">99999</SimpleData>
+		<SimpleData name="TIPOVIA">Plaza</SimpleData>
+		<SimpleData name="PARTICULA"></SimpleData>
+		<SimpleData name="NOMBREVIA">Sol de 9001</SimpleData>
+		<SimpleData name="TIPONUMERO">SN</SimpleData>
+		<SimpleData name="NUMEROPORTAL">SN</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28938</SimpleData>
+		<SimpleData name="DISTRITO">04</SimpleData>
+		<SimpleData name="SECCIONCENSAL">001</SimpleData>
+		<SimpleData name="TESELA">T092403</SimpleData>
+		<SimpleData name="SECTORURBANO">0920101001</SimpleData>
+		<SimpleData name="CORREDOR">5</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B2</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">092-030</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">808</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">426690</SimpleData>
+		<SimpleData name="Y">4462623</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.864021197226151,40.309030055836459</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="IDESTACION">4_209</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">209</SimpleData>
+		<SimpleData name="DENOMINACION">PUERTA DEL SUR</SimpleData>
+		<SimpleData name="OBSERVACIONES">1021</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">205</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1201</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">92</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">307</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">007</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">00701</SimpleData>
+		<SimpleData name="CODIGOVIA">02418</SimpleData>
+		<SimpleData name="TIPOVIA">Avda</SimpleData>
+		<SimpleData name="PARTICULA">de</SimpleData>
+		<SimpleData name="NOMBREVIA">Leganés</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">52</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28924</SimpleData>
+		<SimpleData name="DISTRITO">02</SimpleData>
+		<SimpleData name="SECCIONCENSAL">001</SimpleData>
+		<SimpleData name="CORREDOR">5</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B1</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">007-011</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">654</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">431106</SimpleData>
+		<SimpleData name="Y">4466622</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.81248917974568,40.345430865500632</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="IDESTACION">4_210</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">210</SimpleData>
+		<SimpleData name="DENOMINACION">PARQUE LISBOA</SimpleData>
+		<SimpleData name="OBSERVACIONES">1202</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">210</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1202</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">93</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">293</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">007</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">00701</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0070101</SimpleData>
+		<SimpleData name="CODIGOVIA">02522</SimpleData>
+		<SimpleData name="TIPOVIA">Calle</SimpleData>
+		<SimpleData name="PARTICULA">de</SimpleData>
+		<SimpleData name="NOMBREVIA">Porto Lagos</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">7</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28924</SimpleData>
+		<SimpleData name="DISTRITO">02</SimpleData>
+		<SimpleData name="SECCIONCENSAL">001</SimpleData>
+		<SimpleData name="TESELA">T007279</SimpleData>
+		<SimpleData name="SECTORURBANO">0070101013</SimpleData>
+		<SimpleData name="CORREDOR">5</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B1</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">007-010</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">653</SimpleData>
+		<SimpleData name="HOJA25000">559-3</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">430371</SimpleData>
+		<SimpleData name="Y">4467101</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.821195732552155,40.349687281522193</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="IDESTACION">4_212</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">212</SimpleData>
+		<SimpleData name="DENOMINACION">PARQUE OESTE</SimpleData>
+		<SimpleData name="OBSERVACIONES">1204</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">212</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1204</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">93</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">294</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">007</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">00701</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0070101</SimpleData>
+		<SimpleData name="CODIGOVIA">02606</SimpleData>
+		<SimpleData name="TIPOVIA">Calle</SimpleData>
+		<SimpleData name="PARTICULA">de</SimpleData>
+		<SimpleData name="NOMBREVIA">Estambul</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">5</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28922</SimpleData>
+		<SimpleData name="DISTRITO">01</SimpleData>
+		<SimpleData name="SECCIONCENSAL">017</SimpleData>
+		<SimpleData name="TESELA">T007303</SimpleData>
+		<SimpleData name="SECTORURBANO">0070101029</SimpleData>
+		<SimpleData name="CORREDOR">5</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B1</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">007-008</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">651</SimpleData>
+		<SimpleData name="HOJA25000">559-3</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">427977</SimpleData>
+		<SimpleData name="Y">4466703</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.849338616599969,40.345894380413725</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="IDESTACION">4_213</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">213</SimpleData>
+		<SimpleData name="DENOMINACION">UNIVERSIDAD REY JUAN CARLOS</SimpleData>
+		<SimpleData name="OBSERVACIONES">1205</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">213</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1205</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">92</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">357</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">092</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">09201</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0920101</SimpleData>
+		<SimpleData name="CODIGOVIA">A0368</SimpleData>
+		<SimpleData name="TIPOVIA">Calle</SimpleData>
+		<SimpleData name="PARTICULA"></SimpleData>
+		<SimpleData name="NOMBREVIA">Tulipán</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">2</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28933</SimpleData>
+		<SimpleData name="DISTRITO">02</SimpleData>
+		<SimpleData name="SECCIONCENSAL">034</SimpleData>
+		<SimpleData name="TESELA">T092114</SimpleData>
+		<SimpleData name="SECTORURBANO">0920101065</SimpleData>
+		<SimpleData name="CORREDOR">5</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B2</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">092-004</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">782</SimpleData>
+		<SimpleData name="HOJA25000">558-4</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">426025</SimpleData>
+		<SimpleData name="Y">4465526</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.872179606424482,40.335122976598605</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="IDESTACION">4_215</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">215</SimpleData>
+		<SimpleData name="DENOMINACION">PRADILLO</SimpleData>
+		<SimpleData name="OBSERVACIONES">1207</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">215</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1207</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">93</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">304</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">092</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">09201</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0920101</SimpleData>
+		<SimpleData name="CODIGOVIA">A0004</SimpleData>
+		<SimpleData name="TIPOVIA">Calle</SimpleData>
+		<SimpleData name="PARTICULA">de</SimpleData>
+		<SimpleData name="NOMBREVIA">Agustina de Aragón</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">23</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28931</SimpleData>
+		<SimpleData name="DISTRITO">04</SimpleData>
+		<SimpleData name="SECCIONCENSAL">001</SimpleData>
+		<SimpleData name="TESELA">T092404</SimpleData>
+		<SimpleData name="SECTORURBANO">0920101008</SimpleData>
+		<SimpleData name="CORREDOR">5</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B2</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">092-017</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">795</SimpleData>
+		<SimpleData name="HOJA25000">581-2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">426630</SimpleData>
+		<SimpleData name="Y">4464028</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.864889402970309,40.321676964744668</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">11</SimpleData>
+		<SimpleData name="IDESTACION">4_216</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">216</SimpleData>
+		<SimpleData name="DENOMINACION">HOSPITAL DE MOSTOLES</SimpleData>
+		<SimpleData name="OBSERVACIONES">1208</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">216</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1208</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">92</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">231</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">092</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">09201</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0920101</SimpleData>
+		<SimpleData name="CODIGOVIA">A0325</SimpleData>
+		<SimpleData name="TIPOVIA">Calle</SimpleData>
+		<SimpleData name="PARTICULA">del</SimpleData>
+		<SimpleData name="NOMBREVIA">Río Sella</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">10</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28934</SimpleData>
+		<SimpleData name="DISTRITO">04</SimpleData>
+		<SimpleData name="SECCIONCENSAL">025</SimpleData>
+		<SimpleData name="TESELA">T092569</SimpleData>
+		<SimpleData name="SECTORURBANO">0920101057</SimpleData>
+		<SimpleData name="CORREDOR">5</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B2</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">092-024</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">802</SimpleData>
+		<SimpleData name="HOJA25000">581-2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">425790</SimpleData>
+		<SimpleData name="Y">4463464</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.874712477719213,40.316524281645606</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">12</SimpleData>
+		<SimpleData name="IDESTACION">4_224</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">224</SimpleData>
+		<SimpleData name="DENOMINACION">CONSERVATORIO</SimpleData>
+		<SimpleData name="OBSERVACIONES">1218</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">224</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1218</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">93</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">177</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">065</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">06503</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0650301</SimpleData>
+		<SimpleData name="CODIGOVIA">A0074</SimpleData>
+		<SimpleData name="TIPOVIA">Avda</SimpleData>
+		<SimpleData name="PARTICULA">de las</SimpleData>
+		<SimpleData name="NOMBREVIA">Arcas del Agua</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">5</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28905</SimpleData>
+		<SimpleData name="DISTRITO">03</SimpleData>
+		<SimpleData name="SECCIONCENSAL">026</SimpleData>
+		<SimpleData name="TESELA">T0651135</SimpleData>
+		<SimpleData name="SECTORURBANO">0650301004</SimpleData>
+		<SimpleData name="CORREDOR">4</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B1</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">065-027</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">731</SimpleData>
+		<SimpleData name="HOJA25000">582-1</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">436724</SimpleData>
+		<SimpleData name="Y">4460780</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.745761040443378,40.293243846316578</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">13</SimpleData>
+		<SimpleData name="IDESTACION">4_218</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">218</SimpleData>
+		<SimpleData name="DENOMINACION">LORANCA</SimpleData>
+		<SimpleData name="OBSERVACIONES">Con Calle de la Pintura</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">218</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1210</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">93</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">260</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">058</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">05805</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0580501</SimpleData>
+		<SimpleData name="CODIGOVIA">A0015</SimpleData>
+		<SimpleData name="TIPOVIA">Calle</SimpleData>
+		<SimpleData name="PARTICULA">de la</SimpleData>
+		<SimpleData name="NOMBREVIA">Alegría</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">4</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28942</SimpleData>
+		<SimpleData name="DISTRITO">09</SimpleData>
+		<SimpleData name="SECCIONCENSAL">005</SimpleData>
+		<SimpleData name="TESELA">T058165</SimpleData>
+		<SimpleData name="SECTORURBANO">0580501001</SimpleData>
+		<SimpleData name="CORREDOR">4</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B2</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">058-003</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">678</SimpleData>
+		<SimpleData name="HOJA25000">582-1</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">428915</SimpleData>
+		<SimpleData name="Y">4461245</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.837683457120192,40.296812664055288</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">14</SimpleData>
+		<SimpleData name="IDESTACION">4_219</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">219</SimpleData>
+		<SimpleData name="DENOMINACION">HOSPITAL DE FUENLABRADA</SimpleData>
+		<SimpleData name="OBSERVACIONES">1212</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">219</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1212</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">92</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">230</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">058</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">05801</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0580102</SimpleData>
+		<SimpleData name="CODIGOVIA">A0319</SimpleData>
+		<SimpleData name="TIPOVIA">Cmno</SimpleData>
+		<SimpleData name="PARTICULA">del</SimpleData>
+		<SimpleData name="NOMBREVIA">Molino</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">3</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28942</SimpleData>
+		<SimpleData name="DISTRITO">07</SimpleData>
+		<SimpleData name="SECCIONCENSAL">007</SimpleData>
+		<SimpleData name="TESELA">T058439</SimpleData>
+		<SimpleData name="SECTORURBANO">0580102039</SimpleData>
+		<SimpleData name="CORREDOR">4</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B2</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">058-014</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">689</SimpleData>
+		<SimpleData name="HOJA25000">582-1</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">430711</SimpleData>
+		<SimpleData name="Y">4460001</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.816416808685618,40.285755485877637</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">15</SimpleData>
+		<SimpleData name="IDESTACION">4_220</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">220</SimpleData>
+		<SimpleData name="DENOMINACION">PARQUE EUROPA</SimpleData>
+		<SimpleData name="OBSERVACIONES">1213</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">220</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1213</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">93</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">292</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">058</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">05801</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0580102</SimpleData>
+		<SimpleData name="CODIGOVIA">A0179</SimpleData>
+		<SimpleData name="TIPOVIA">Calle</SimpleData>
+		<SimpleData name="PARTICULA">de</SimpleData>
+		<SimpleData name="NOMBREVIA">Francia</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">34</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28943</SimpleData>
+		<SimpleData name="DISTRITO">07</SimpleData>
+		<SimpleData name="SECCIONCENSAL">009</SimpleData>
+		<SimpleData name="TESELA">T058510</SimpleData>
+		<SimpleData name="SECTORURBANO">0580102015</SimpleData>
+		<SimpleData name="CORREDOR">4</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B2</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">058-016</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">691</SimpleData>
+		<SimpleData name="HOJA25000">582-1</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">431569</SimpleData>
+		<SimpleData name="Y">4459929</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.80632299228354,40.285175696495507</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">16</SimpleData>
+		<SimpleData name="IDESTACION">4_222</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">222</SimpleData>
+		<SimpleData name="DENOMINACION">PARQUE DE LOS ESTADOS</SimpleData>
+		<SimpleData name="OBSERVACIONES">1215</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">222</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1215</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">93</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">290</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">058</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">05801</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0580102</SimpleData>
+		<SimpleData name="CODIGOVIA">A0506</SimpleData>
+		<SimpleData name="TIPOVIA">Calle</SimpleData>
+		<SimpleData name="PARTICULA">de</SimpleData>
+		<SimpleData name="NOMBREVIA">Venezuela</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">2</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28945</SimpleData>
+		<SimpleData name="DISTRITO">02</SimpleData>
+		<SimpleData name="SECCIONCENSAL">004</SimpleData>
+		<SimpleData name="TESELA">T058471</SimpleData>
+		<SimpleData name="SECTORURBANO">0580102013</SimpleData>
+		<SimpleData name="CORREDOR">4</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B2</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">058-019</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">694</SimpleData>
+		<SimpleData name="HOJA25000">582-1</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">433215</SimpleData>
+		<SimpleData name="Y">4460099</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.786974043457501,40.286835800532621</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">17</SimpleData>
+		<SimpleData name="IDESTACION">4_223</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">223</SimpleData>
+		<SimpleData name="DENOMINACION">ARROYO CULEBRO</SimpleData>
+		<SimpleData name="OBSERVACIONES">1217</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">223</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1217</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">93</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">142</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">065</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">06503</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0650301</SimpleData>
+		<SimpleData name="CODIGOVIA">A0420</SimpleData>
+		<SimpleData name="TIPOVIA">Paseo</SimpleData>
+		<SimpleData name="PARTICULA">de</SimpleData>
+		<SimpleData name="NOMBREVIA">Juan José Rosón</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">1</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28905</SimpleData>
+		<SimpleData name="DISTRITO">03</SimpleData>
+		<SimpleData name="SECCIONCENSAL">032</SimpleData>
+		<SimpleData name="TESELA">T0651262</SimpleData>
+		<SimpleData name="SECTORURBANO">0650301041</SimpleData>
+		<SimpleData name="CORREDOR">4</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B1</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">065-027</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">731</SimpleData>
+		<SimpleData name="HOJA25000">582-1</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">435780</SimpleData>
+		<SimpleData name="Y">4460288</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.756823356667385,40.288741769149418</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">18</SimpleData>
+		<SimpleData name="IDESTACION">4_225</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">225</SimpleData>
+		<SimpleData name="DENOMINACION">ALONSO DE MENDOZA</SimpleData>
+		<SimpleData name="OBSERVACIONES">1219</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">225</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1219</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">93</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">132</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">065</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">06503</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0650301</SimpleData>
+		<SimpleData name="CODIGOVIA">A0354</SimpleData>
+		<SimpleData name="TIPOVIA">Calle</SimpleData>
+		<SimpleData name="PARTICULA">del</SimpleData>
+		<SimpleData name="NOMBREVIA">Greco</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">6</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28904</SimpleData>
+		<SimpleData name="DISTRITO">03</SimpleData>
+		<SimpleData name="SECCIONCENSAL">001</SimpleData>
+		<SimpleData name="TESELA">T065978</SimpleData>
+		<SimpleData name="SECTORURBANO">0650301017</SimpleData>
+		<SimpleData name="CORREDOR">4</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B1</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">065-022</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">726</SimpleData>
+		<SimpleData name="HOJA25000">582-1</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">437507</SimpleData>
+		<SimpleData name="Y">4461613</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.736636971712462,40.300813961926536</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">19</SimpleData>
+		<SimpleData name="IDESTACION">4_227</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">227</SimpleData>
+		<SimpleData name="DENOMINACION">JUAN DE LA CIERVA</SimpleData>
+		<SimpleData name="OBSERVACIONES">1221</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">227</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1221</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">93</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">241</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">065</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">06503</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0650301</SimpleData>
+		<SimpleData name="CODIGOVIA">A0277</SimpleData>
+		<SimpleData name="TIPOVIA">Avda</SimpleData>
+		<SimpleData name="PARTICULA">de</SimpleData>
+		<SimpleData name="NOMBREVIA">España</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">20</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28903</SimpleData>
+		<SimpleData name="DISTRITO">04</SimpleData>
+		<SimpleData name="SECCIONCENSAL">021</SimpleData>
+		<SimpleData name="TESELA">T065574</SimpleData>
+		<SimpleData name="SECTORURBANO">0650301049</SimpleData>
+		<SimpleData name="CORREDOR">4</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B1</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">065-012</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">716</SimpleData>
+		<SimpleData name="HOJA25000">582-1</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">438740</SimpleData>
+		<SimpleData name="Y">4462823</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.722240122704442,40.31180236485632</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">20</SimpleData>
+		<SimpleData name="IDESTACION">4_229</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">229</SimpleData>
+		<SimpleData name="DENOMINACION">LOS ESPARTALES</SimpleData>
+		<SimpleData name="OBSERVACIONES">1223</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">229</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1223</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">93</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">261</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">065</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">06503</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0650301</SimpleData>
+		<SimpleData name="CODIGOVIA">A0634</SimpleData>
+		<SimpleData name="TIPOVIA">Avda</SimpleData>
+		<SimpleData name="PARTICULA"></SimpleData>
+		<SimpleData name="NOMBREVIA">Rigoberta Menchú</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">3</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28903</SimpleData>
+		<SimpleData name="DISTRITO">02</SimpleData>
+		<SimpleData name="SECCIONCENSAL">019</SimpleData>
+		<SimpleData name="TESELA">T065112</SimpleData>
+		<SimpleData name="SECTORURBANO">0650301047</SimpleData>
+		<SimpleData name="CORREDOR">4</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B1</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">065-003</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">707</SimpleData>
+		<SimpleData name="HOJA25000">582-1</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">439095</SimpleData>
+		<SimpleData name="Y">4464199</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.718197864524398,40.324227014937343</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">21</SimpleData>
+		<SimpleData name="IDESTACION">4_231</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">231</SimpleData>
+		<SimpleData name="DENOMINACION">EL CARRASCAL</SimpleData>
+		<SimpleData name="OBSERVACIONES">1225</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">231</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1225</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">93</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">204</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">074</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">07402</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0740201</SimpleData>
+		<SimpleData name="CODIGOVIA">A0370</SimpleData>
+		<SimpleData name="TIPOVIA">Avda</SimpleData>
+		<SimpleData name="PARTICULA"></SimpleData>
+		<SimpleData name="NOMBREVIA">Rey Juan Carlos I</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">85</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28916</SimpleData>
+		<SimpleData name="DISTRITO">05</SimpleData>
+		<SimpleData name="SECCIONCENSAL">015</SimpleData>
+		<SimpleData name="TESELA">T074574</SimpleData>
+		<SimpleData name="SECTORURBANO">0740201003</SimpleData>
+		<SimpleData name="CORREDOR">4</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B1</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">074-024</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">763</SimpleData>
+		<SimpleData name="HOJA25000">559-3</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">437239</SimpleData>
+		<SimpleData name="Y">4465592</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.740184882914837,40.336638243777507</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">22</SimpleData>
+		<SimpleData name="IDESTACION">4_232</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">232</SimpleData>
+		<SimpleData name="DENOMINACION">JULIAN BESTEIRO</SimpleData>
+		<SimpleData name="OBSERVACIONES">1226</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">232</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1226</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">93</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">242</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">074</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">07402</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0740201</SimpleData>
+		<SimpleData name="CODIGOVIA">A0370</SimpleData>
+		<SimpleData name="TIPOVIA">Avda</SimpleData>
+		<SimpleData name="PARTICULA"></SimpleData>
+		<SimpleData name="NOMBREVIA">Rey Juan Carlos I</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">23</SimpleData>
+		<SimpleData name="CALIFICADORPORTAL">A</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28915</SimpleData>
+		<SimpleData name="DISTRITO">04</SimpleData>
+		<SimpleData name="SECCIONCENSAL">015</SimpleData>
+		<SimpleData name="TESELA">T074615</SimpleData>
+		<SimpleData name="SECTORURBANO">0740201021</SimpleData>
+		<SimpleData name="CORREDOR">4</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B1</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">074-017</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">756</SimpleData>
+		<SimpleData name="HOJA25000">solape</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">436177</SimpleData>
+		<SimpleData name="Y">4465391</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.75265895099191,40.334749107830561</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">23</SimpleData>
+		<SimpleData name="IDESTACION">4_233</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">233</SimpleData>
+		<SimpleData name="DENOMINACION">CASA DEL RELOJ</SimpleData>
+		<SimpleData name="OBSERVACIONES">1227</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">233</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1227</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">93</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">168</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">074</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">07402</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0740201</SimpleData>
+		<SimpleData name="CODIGOVIA">A0180</SimpleData>
+		<SimpleData name="TIPOVIA">Avda</SimpleData>
+		<SimpleData name="PARTICULA"></SimpleData>
+		<SimpleData name="NOMBREVIA">Gibraltar</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">11</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28914</SimpleData>
+		<SimpleData name="DISTRITO">02</SimpleData>
+		<SimpleData name="SECCIONCENSAL">008</SimpleData>
+		<SimpleData name="TESELA">T0741116</SimpleData>
+		<SimpleData name="SECTORURBANO">0740201027</SimpleData>
+		<SimpleData name="CORREDOR">4</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B1</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">074-028</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">767</SimpleData>
+		<SimpleData name="HOJA25000">582-1</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">435595</SimpleData>
+		<SimpleData name="Y">4464492</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.75942499130863,40.326602721384234</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">24</SimpleData>
+		<SimpleData name="IDESTACION">4_236</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">236</SimpleData>
+		<SimpleData name="DENOMINACION">SAN NICASIO</SimpleData>
+		<SimpleData name="OBSERVACIONES">1230</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">236</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1230</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">93</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">338</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">074</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">07402</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0740201</SimpleData>
+		<SimpleData name="CODIGOVIA">A0246</SimpleData>
+		<SimpleData name="TIPOVIA">Avda</SimpleData>
+		<SimpleData name="PARTICULA"></SimpleData>
+		<SimpleData name="NOMBREVIA">Mar Mediterráneo</SimpleData>
+		<SimpleData name="TIPONUMERO">SN</SimpleData>
+		<SimpleData name="NUMEROPORTAL">SN</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28918</SimpleData>
+		<SimpleData name="DISTRITO">03</SimpleData>
+		<SimpleData name="SECCIONCENSAL">018</SimpleData>
+		<SimpleData name="TESELA">T074496</SimpleData>
+		<SimpleData name="SECTORURBANO">0740201022</SimpleData>
+		<SimpleData name="CORREDOR">4</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B1</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">074-008</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">747</SimpleData>
+		<SimpleData name="HOJA25000">559-3</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">434207</SimpleData>
+		<SimpleData name="Y">4465565</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.775873625300736,40.336163147895952</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">25</SimpleData>
+		<SimpleData name="IDESTACION">4_235</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">235</SimpleData>
+		<SimpleData name="DENOMINACION">LEGANES CENTRAL</SimpleData>
+		<SimpleData name="OBSERVACIONES">1229</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">235</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1229</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">92</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">88</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">074</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">07402</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0740201</SimpleData>
+		<SimpleData name="CODIGOVIA">A0521</SimpleData>
+		<SimpleData name="TIPOVIA">Calle</SimpleData>
+		<SimpleData name="NOMBREVIA">Virgen del Camino</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">1</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28913</SimpleData>
+		<SimpleData name="DISTRITO">01</SimpleData>
+		<SimpleData name="SECCIONCENSAL">020</SimpleData>
+		<SimpleData name="TESELA">T0741000</SimpleData>
+		<SimpleData name="SECTORURBANO">0740201013</SimpleData>
+		<SimpleData name="SECTOR">7</SimpleData>
+		<SimpleData name="CORREDOR">4</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B1</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">074-012</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">751</SimpleData>
+		<SimpleData name="HOJA25000">582-1</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">434568</SimpleData>
+		<SimpleData name="Y">4464765</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.771536996688428,40.328985230945548</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">26</SimpleData>
+		<SimpleData name="IDESTACION">4_211</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">211</SimpleData>
+		<SimpleData name="DENOMINACION">ALCORCON CENTRAL</SimpleData>
+		<SimpleData name="OBSERVACIONES">1203</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">211</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1203</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">92</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">89</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">007</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">00701</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0070101</SimpleData>
+		<SimpleData name="CODIGOVIA">A0045</SimpleData>
+		<SimpleData name="TIPOVIA">Avda</SimpleData>
+		<SimpleData name="PARTICULA">de</SimpleData>
+		<SimpleData name="NOMBREVIA">Móstoles</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">12</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28922</SimpleData>
+		<SimpleData name="DISTRITO">01</SimpleData>
+		<SimpleData name="SECCIONCENSAL">002</SimpleData>
+		<SimpleData name="TESELA">T007295</SimpleData>
+		<SimpleData name="SECTORURBANO">0070101028</SimpleData>
+		<SimpleData name="SECTOR">7</SimpleData>
+		<SimpleData name="CORREDOR">5</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B1</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">007-014</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">657</SimpleData>
+		<SimpleData name="HOJA25000">559-3</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">429473</SimpleData>
+		<SimpleData name="Y">4467154</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.831778620631979,40.350084340279416</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">27</SimpleData>
+		<SimpleData name="IDESTACION">4_214</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">214</SimpleData>
+		<SimpleData name="DENOMINACION">MOSTOLES CENTRAL</SimpleData>
+		<SimpleData name="OBSERVACIONES">1206</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">214</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1206</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">92</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">90</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">092</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">09201</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0920101</SimpleData>
+		<SimpleData name="CODIGOVIA">A0126</SimpleData>
+		<SimpleData name="TIPOVIA">Paseo</SimpleData>
+		<SimpleData name="PARTICULA">de la</SimpleData>
+		<SimpleData name="NOMBREVIA">Estación</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">13</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28933</SimpleData>
+		<SimpleData name="DISTRITO">02</SimpleData>
+		<SimpleData name="SECCIONCENSAL">011</SimpleData>
+		<SimpleData name="TESELA">T092228</SimpleData>
+		<SimpleData name="SECTORURBANO">0920101027</SimpleData>
+		<SimpleData name="SECTOR">7</SimpleData>
+		<SimpleData name="CORREDOR">5</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B2</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">092-009</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">787</SimpleData>
+		<SimpleData name="HOJA25000">581-2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">426752</SimpleData>
+		<SimpleData name="Y">4464784</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.863542175638656,40.328500218331541</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#OGRGeoJSON">
+		<SimpleData name="OBJECTID">28</SimpleData>
+		<SimpleData name="IDESTACION">4_228</SimpleData>
+		<SimpleData name="FECHAACTUAL">20150709</SimpleData>
+		<SimpleData name="MODO">4</SimpleData>
+		<SimpleData name="CODIGOESTACION">228</SimpleData>
+		<SimpleData name="DENOMINACION">EL CASAR</SimpleData>
+		<SimpleData name="OBSERVACIONES">1222</SimpleData>
+		<SimpleData name="SITUACION">I</SimpleData>
+		<SimpleData name="CODIGOCTMESTACIONREDMETRO">228</SimpleData>
+		<SimpleData name="CODIGOEMPRESA">1222</SimpleData>
+		<SimpleData name="MODOINTERCAMBIADOR">92</SimpleData>
+		<SimpleData name="CODIGOINTERCAMBIADOR">93</SimpleData>
+		<SimpleData name="TIPO">U</SimpleData>
+		<SimpleData name="CODIGOPROVINCIA">28</SimpleData>
+		<SimpleData name="CODIGOMUNICIPIO">065</SimpleData>
+		<SimpleData name="CODIGOENTIDAD">06503</SimpleData>
+		<SimpleData name="CODIGONUCLEO">0650301</SimpleData>
+		<SimpleData name="CODIGOVIA">A0161</SimpleData>
+		<SimpleData name="TIPOVIA">Avda</SimpleData>
+		<SimpleData name="PARTICULA">del</SimpleData>
+		<SimpleData name="NOMBREVIA">Casar</SimpleData>
+		<SimpleData name="TIPONUMERO">N</SimpleData>
+		<SimpleData name="NUMEROPORTAL">2</SimpleData>
+		<SimpleData name="CODIGOPOSTAL">28903</SimpleData>
+		<SimpleData name="DISTRITO">02</SimpleData>
+		<SimpleData name="SECCIONCENSAL">020</SimpleData>
+		<SimpleData name="TESELA">T065211</SimpleData>
+		<SimpleData name="SECTORURBANO">0650301045</SimpleData>
+		<SimpleData name="SECTOR">7</SimpleData>
+		<SimpleData name="CORREDOR">4</SimpleData>
+		<SimpleData name="CORONATARIFARIA">B1</SimpleData>
+		<SimpleData name="CORONA123">3</SimpleData>
+		<SimpleData name="ZONATRANSPORTE">065-005</SimpleData>
+		<SimpleData name="ENCUESTADOMICILIARIA">709</SimpleData>
+		<SimpleData name="HOJA25000">582-1</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVIAJEROS">2</SimpleData>
+		<SimpleData name="ACONDICIONAMIENTOVEHICULOS">3</SimpleData>
+		<SimpleData name="FECHAALTA">20030120</SimpleData>
+		<SimpleData name="FECHAINICIO">20030101</SimpleData>
+		<SimpleData name="X">439799</SimpleData>
+		<SimpleData name="Y">4463572</SimpleData>
+		<SimpleData name="GRADOACCESIBILIDAD">T</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-3.709854042300059,40.318623157885447</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

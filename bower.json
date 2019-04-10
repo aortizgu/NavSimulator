@@ -7,7 +7,9 @@
     "leaflet": "~0.7.3",
     "jquery": "^3.3.1",
     "bootstrap": "^4.3.1",
-    "jquery-ui": "^1.12.1"
+    "jquery-ui": "^1.12.1",
+    "leaflet-omnivore": "^0.3.4",
+    "togeojson": "^0.16.0"
   },
   "ignore": [
     "**/.*",
