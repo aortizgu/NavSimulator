@@ -51,7 +51,7 @@ function updateOdometer(){
         $("#lat").val(nearestPoint.lat);
         $("#lng").val(nearestPoint.lng);
         $("#odometer").val(Math.round(nearestPoint.pm*10)/10);
-        MARKER.setCenter(nearestPoint);
+        MARKER.setLatLng(new L.LatLng(nearestPoint.lat, nearestPoint.lng));
         updatePosition();
         updateStations();
     }else{
