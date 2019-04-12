@@ -1,4 +1,5 @@
 (function () {
+    
     //include sample data
     var _pathData = [
         { latitude: 42.347856, longitude: -71.073668 },
