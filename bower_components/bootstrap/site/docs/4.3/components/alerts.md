@@ -25,6 +25,7 @@ Alerts are available for any length of text, as well as an optional dismiss butt
 
 ### Link color
 
+
 Use the `.alert-link` utility class to quickly provide matching colored links within any alert.
 
 {% capture example %}
