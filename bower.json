@@ -3,14 +3,7 @@
   "version": "0.0.1",
   "homepage": "https://github.com/yevhenGuba/osm-offline-maps-playing",
   "description": "Demo project with offline map rendering using leaflet",
-  "dependencies": {
-    "leaflet": "~0.7.3",
-    "jquery": "^3.3.1",
-    "bootstrap": "^4.3.1",
-    "jquery-ui": "^1.12.1",
-    "leaflet-omnivore": "^0.3.4",
-    "togeojson": "^0.16.0"
-  },
+  "dependencies": {},
   "ignore": [
     "**/.*",
     "node_modules",
