@@ -20,16 +20,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" id="home">Home </a>
+                    <a class="nav-link" id="go-to-end">Go to end </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="reset">Reset </a>
+                    <a class="nav-link" id="go-to-next">Go to next </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="stop">Stop </a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input id="lat" class="form-control mr-sm-2" placeholder="Lat" aria-label="Lat" readonly>
-                <input id="lng" class="form-control mr-sm-2" placeholder="Lng" aria-label="Lng" readonly>
-                <input id="odometer" class="form-control mr-sm-2" placeholder="Odometer" aria-label="Odometer">
+                Speed(ms): <input id="speed" class="form-control mr-sm-2" placeholder="Speed" aria-label="Speed" type="number" min="0" max="100" value="0">
+                Speed(Kmh): <input id="speed-kmh" class="form-control mr-sm-2" readonly>
+                Lat: <input id="lat" class="form-control mr-sm-2" placeholder="Lat" aria-label="Lat" readonly>
+                Long: <input id="lng" class="form-control mr-sm-2" placeholder="Lng" aria-label="Lng" readonly>
+                Odometer: <input id="odometer" class="form-control mr-sm-2" placeholder="Odometer" aria-label="Odometer">
             </form>
         </div>
 
