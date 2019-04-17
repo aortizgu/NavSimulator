@@ -74,7 +74,6 @@ function distance(lat1, lon1, lat2, lon2, unit) {
 /////////////////////////////////////////////
 
 function sendLocation() {
-    console.log("sendLocation");
     if(POSITION != undefined){
         var dataxml = $.xmlrpc.document('SetAsm', [101, [POSITION.lat, POSITION.lng, parseInt(POSITION.pm), 1]]);
         var dataxmlstr = new XMLSerializer().serializeToString(dataxml);
