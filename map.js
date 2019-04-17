@@ -16,8 +16,8 @@ const ESTATE = {
     GOTONEXT: 'GOTONEXT'
 }
 var STATE = ESTATE.IDDLE;
-var MAP_STATIONS = 'M4_L12_S1_ESTACION.kml';
-var MAP_STRETCH = 'M4_L12_S1_TRAMO.kml';
+var MAP_STATIONS = 'M4_L12_S1_ESTACION.xml';
+var MAP_STRETCH = 'M4_L12_S1_TRAMO.xml';
 var MAP_OPTIONS = {
     selector: 'madrid',
     TILE_SRC: 'images/mapTiles/madrid/{z}/{x}/{y}.png.tile',
@@ -72,10 +72,6 @@ function distance(lat1, lon1, lat2, lon2, unit) {
 /////////////////////////////////////////////
 ///////////////////FUNCTIONAL//////////////////
 /////////////////////////////////////////////
-function logResults(json){
-    console.log(json);
-  }
-  
 
 function sendLocation() {
     console.log("sendLocation");
