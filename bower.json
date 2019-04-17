@@ -1,7 +1,7 @@
 {
-  "name": "osm-offline-maps-playing",
+  "name": "NavSimulator",
   "version": "0.0.1",
-  "homepage": "https://github.com/yevhenGuba/osm-offline-maps-playing",
+  "homepage": "https://github.com/aortizgu/NavSimulator",
   "description": "Demo project with offline map rendering using leaflet",
   "dependencies": {},
   "ignore": [
