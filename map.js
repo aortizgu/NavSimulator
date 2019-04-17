@@ -5,7 +5,8 @@ var VIA = [];
 var STRETCH = [];
 var POSITION = undefined;
 var CENTER_MAP = [40.329693, -3.799016];
-var PERIOD = 100;
+var DOWORK_PERIOD = 100;
+var SEND_PERIOD = 250;
 var SPEED = 0;
 var ODO = 0;
 var MAX_SEGMENT = 5;
@@ -71,6 +72,24 @@ function distance(lat1, lon1, lat2, lon2, unit) {
 /////////////////////////////////////////////
 ///////////////////FUNCTIONAL//////////////////
 /////////////////////////////////////////////
+function logResults(json){
+    console.log(json);
+  }
+  
+
+function sendLocation() {
+    console.log("sendLocation");
+    if(POSITION != undefined){
+        var dataxml = $.xmlrpc.document('SetAsm', [101, [POSITION.lat, POSITION.lng, parseInt(POSITION.pm), 1]]);
+        var dataxmlstr = new XMLSerializer().serializeToString(dataxml);
+        $.ajax({
+            url: "http://" + window.location.hostname + ":8001",
+            type: "POST",
+            crossDomain: true,
+            data: dataxmlstr
+        });
+    }
+}
 
 function updateOdometer(){
     odo = parseFloat($("#odometer").val());
@@ -165,7 +184,7 @@ function doWork() {
         break;
         case ESTATE.GOTOEND:
         if(SPEED > 0){
-            ODO += SPEED/(1000/PERIOD);
+            ODO += SPEED/(1000/DOWORK_PERIOD);
             $("#odometer").val(Math.round(ODO*10)/10);
             var needsToMove = ODO > VIA[POSITION.index + 1].pm;
             if(needsToMove){
@@ -180,7 +199,7 @@ function doWork() {
         break;
         case ESTATE.GOTONEXT:
         if(SPEED > 0){
-            ODO += SPEED/(1000/PERIOD);
+            ODO += SPEED/(1000/DOWORK_PERIOD);
             $("#odometer").val(Math.round(ODO*10)/10);
             var needsToMove =  ODO > VIA[POSITION.index + 1].pm;
             if(needsToMove){
@@ -347,5 +366,6 @@ $('document').ready(function() {
     $('#odometer').change(function(){
         updateOdometer();
     });
-    setInterval(doWork, PERIOD);
+    setInterval(doWork, DOWORK_PERIOD);
+    setInterval(sendLocation, SEND_PERIOD);
 }());
