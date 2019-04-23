@@ -75,10 +75,10 @@ function distance(lat1, lon1, lat2, lon2, unit) {
 
 function sendLocation() {
     if(POSITION != undefined){
-        var dataxml = $.xmlrpc.document('SetAsm', [101, [POSITION.lat, POSITION.lng, parseInt(POSITION.pm), 1]]);
+        var dataxml = $.xmlrpc.document('SetAsm', [101, {"MPU_CGlobalPosLat": POSITION.lat, "MPU_CGlobalPosLong": POSITION.lng, "MPU_CKP": parseInt(POSITION.pm), "MPU_CKPValid": 1}]);
         var dataxmlstr = new XMLSerializer().serializeToString(dataxml);
         $.ajax({
-            url: "http://" + window.location.hostname + ":8001",
+            url: "http://" + window.location.hostname + ":5001",
             type: "POST",
             crossDomain: true,
             data: dataxmlstr
